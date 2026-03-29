@@ -21,4 +21,4 @@ Para demonstrar boas práticas de desenvolvimento, o CSS foi refatorado e modula
 * `home.css`: Estilos específicos da página (Grid de produtos, Timeline).
 
 ---
-*Desenvolvido por Alexandre Bueno Faria Rosa*
+*Desenvolvido por Alexandre Bueno Faria Rosa - [Github] https://github.com/alebueeno*
