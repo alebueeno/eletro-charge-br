@@ -1,4 +1,4 @@
-# ⚡ Eletro Charge BR - Landing Page
+# Eletro Charge BR - Landing Page
 
 **Acesso ao projeto ao vivo:** https://alebueeno.github.io/eletro-charge-br/
 
