@@ -1,0 +1,153 @@
+/* ==========================================================================
+   ESTILOS ESPECÍFICOS DA PÁGINA DE ESTAÇÕES
+   ========================================================================== */
+
+.estacoes-container {
+    padding: 80px 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    min-height: 70vh; /* Garante que a página não encolha absurdamente quando filtrada */
+}
+
+.cidade-secao {
+    margin-bottom: 60px;
+}
+
+.cidade-secao h3 {
+    font-size: 2.2rem;
+    color: var(--verde-principal);
+    margin-bottom: 30px;
+    border-bottom: 2px solid rgba(16, 163, 62, 0.2);
+    padding-bottom: 10px;
+}
+
+.grid-enderecos {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+}
+
+.endereco-card {
+    background-color: var(--fundo-cinza);
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+    transition: transform 0.3s ease;
+}
+
+.endereco-card:hover {
+    transform: translateY(-5px);
+}
+
+.endereco-decoracao {
+    height: 8px;
+    background-color: var(--verde-principal);
+    width: 100%;
+}
+
+.endereco-conteudo {
+    padding: 25px;
+}
+
+.endereco-conteudo h4 {
+    font-size: 1.4rem;
+    margin-bottom: 15px;
+    color: var(--texto-escuro);
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.endereco-conteudo h4 i {
+    color: var(--verde-principal);
+    font-size: 1.2rem;
+}
+
+.endereco-conteudo p {
+    color: #555;
+    margin-bottom: 10px;
+    font-size: 0.95rem;
+}
+
+.endereco-conteudo p strong {
+    color: var(--verde-escuro);
+}
+
+/* ==========================================================================
+   CABEÇALHO DA SUBPÁGINA E BOTÕES
+   ========================================================================== */
+
+.header-subpagina {
+    background-color: var(--fundo-escuro);
+    padding: 80px 20px;
+    text-align: center;
+    border-bottom: 4px solid var(--verde-principal);
+}
+
+.header-subpagina h1 {
+    color: var(--texto-claro);
+    font-size: 3rem;
+    margin-bottom: 15px;
+}
+
+.header-subpagina h1 span {
+    color: var(--verde-principal);
+}
+
+.header-subpagina p {
+    color: #d1d5db;
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+}
+
+.btn-voltar {
+    display: inline-block;
+    color: var(--texto-claro);
+    text-decoration: none;
+    font-weight: 600;
+    border: 1px solid var(--verde-principal);
+    padding: 10px 25px;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+
+.btn-voltar:hover {
+    background-color: var(--verde-principal);
+}
+
+.btn-voltar i {
+    margin-right: 8px;
+}
+
+/* ==========================================================================
+   BARRA DE FILTROS DAS ESTAÇÕES
+   ========================================================================== */
+.filtros-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-top: -25px; /* Sobe um pouco a barra */
+    margin-bottom: 50px;
+    position: relative;
+    z-index: 10;
+}
+
+.btn-filtro {
+    background-color: var(--texto-claro);
+    color: var(--texto-escuro);
+    border: 1px solid #ddd;
+    padding: 10px 25px;
+    border-radius: 30px;
+    font-weight: 600;
+    cursor: pointer;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+    transition: all 0.3s ease;
+}
+
+.btn-filtro.active, .btn-filtro:hover {
+    background-color: var(--verde-principal);
+    color: var(--texto-claro);
+    border-color: var(--verde-principal);
+    box-shadow: 0 6px 15px rgba(16, 163, 62, 0.3);
+}

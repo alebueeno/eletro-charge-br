@@ -1,4 +1,36 @@
 /* ==========================================================================
+   0. CABEÇALHO (HERO)
+   ========================================================================== */
+
+.hero {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.6); 
+}
+
+.hero-content {
+    max-width: 800px;
+    padding: 20px;
+    z-index: 1;
+}
+
+.hero h1 {
+    font-size: 4rem;
+    font-weight: 800;
+    margin-bottom: 20px;
+    color: var(--verde-principal);
+}
+
+.hero h2 {
+    font-size: 1.2rem;
+    font-weight: 400;
+    margin-bottom: 40px;
+}
+
+/* ==========================================================================
    1. ÍCONES FONTAWESOME (Tamanhos específicos da Home)
    ========================================================================== */
 .icone-card {
@@ -93,12 +125,6 @@
 /* ==========================================================================
    5. CRONOGRAMA (Timeline e Fundo)
    ========================================================================== */
-.bg-cronograma {
-    /* IMPORTANTE: Ajuste o caminho da imagem caso a pasta CSS esteja em um nível diferente */
-    background-image: linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85)), url('../Images/fundo-cronograma.png');
-    padding: 100px 10%;
-    max-width: 100%; 
-}
 
 .timeline {
     max-width: 600px;

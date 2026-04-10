@@ -1,0 +1,14 @@
+/* ==========================================================================
+   1. ENDEREÇAMENTO DE IMAGENS GLOBAIS
+   ========================================================================== */
+
+.bg-hero {
+    background-image: url('../Images/carro-eletrico.png');
+    background-color: #000;
+}
+
+.bg-cronograma {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85)), url('../Images/fundo-cronograma.png');
+    padding: 100px 10%;
+    max-width: 100%;
+}
