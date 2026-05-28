@@ -25,8 +25,8 @@ Para demonstrar práticas de desenvolvimento escalável de Front-End, e refletir
 - **`global.css`**: Estrutura base da aplicação. Guarda as Variáveis globais (paletas, fontes) e os componentes estruturais repetitivos aplicados a todas as páginas (Cabeçalho/Navbar, Estilo de Botões Base, Rodapé).
 - **`home.css`**: Container de estilos específicos exclusivos para os blocos da página `index.html` (Grid de Serviços, Timeline da Homepage, Seção Hero Principal).
 - **`estacoes.css`**: Novo layout dedicado exclusivamente à apresentação da página `estacoes.html`.
-- **`imagens.css`**: Unificação independente que padroniza os tratamentos, filtros, sombras e encaixe (`object-fit`) de mídias e vetores do projeto inteiro.
 
 ### ⚙️ Módulos de Scripts (JS)
 - **`global.js`**: Scripts vitais para a estrutura mestre da UI presentes em qualquer página (ex: Controle de Menu Mobile de Navegação).
 - **`estacoes.js`**: Scripts fechados cujo escopo importa apenas para interações que ocorrem dentro da tela de estações, poupando a `Home` de rodar JS desnecessário.
+- **`media.js`**: Responsável por carregar e gerenciar as imagens hospedadas externamente após a atualização de mídia, mantendo os assets do site leves e escaláveis.
