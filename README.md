@@ -1,5 +1,5 @@
 # Eletro Charge BR - Website Institucional
-Acesso ao projeto ao vivo: [https://alebueeno.github.io/eletro-charge-br/](https://alebueeno.github.io/eletro-charge-br/)
+Acesso ao projeto ao vivo: [https://alebueeno.github.io/eletro-charge-br/]
 
 ## Sobre o Projeto
 Este é um projeto fictício desenvolvido primeiramente para fins acadêmicos como trabalho prático da disciplina de Programação Front-End/Análise e Desenvolvimento de Sistemas.
@@ -14,6 +14,9 @@ Como requisito da avaliação, este projeto foi construído utilizando majoritar
 - **JavaScript (Vanilla):** Lógica de interface de usuário assíncrona/dinâmica (por exemplo, interações de navegação mobile e efeitos on-scroll).
 - **FontAwesome:** Biblioteca de ícones em fonte.
 - **Google Fonts:** Tipografia baseada na família estrutural *Inter*.
+
+## Atualização de Mídia
+As imagens de fundo do projeto foram hospedadas no Cloudinary porque o serviço de upload do site da UNIRP, indicado pelo professor de Front-End, possui limite máximo de 2 MB por arquivo. Essa abordagem permitiu manter os assets online sem comprometer a entrega visual do projeto, usando o arquivo `js/media.js` para carregar as imagens externas.
 
 ## Nova Arquitetura do Código
 Para demonstrar práticas de desenvolvimento escalável de Front-End, e refletir a evolução de "Landing Page simples" para um "Site Multipage", o CSS e o JS foram profundamente refatorados e modularizados, agrupando e separando responsabilidades:
